@@ -14,7 +14,7 @@ myForm.addEventListener('submit', function (e) {
         console.log(message);
     } else {
       let bmi = (weight / ((height*height/10000)).toFixed(2))
-        let message = (result.innerHTML = bmi)
+        let message = (result.innerHTML = `Result: ${bmi}`)
         console.log(message);
         
     }
